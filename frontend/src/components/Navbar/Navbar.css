@@ -1,0 +1,105 @@
+.first-nav-container {
+  background-color: #1f3e60;
+}
+.first-nav-container p {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 5px auto;
+}
+.company-logo {
+  cursor: pointer;
+  width: 240px;
+}
+.nav-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border: 1px solid black;
+  margin-left: 30px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.search-element-nav {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.nav-btn-save {
+  background-color: #0b6b59;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 100px;
+  cursor: pointer;
+}
+.nav-column-container {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 14px;
+}
+.icons-nav {
+  cursor: pointer;
+
+  font-size: 20px;
+}
+.horizontal-line-navbar {
+  border-top: 7px solid #5b7ea7;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.buttom-navbar {
+  cursor: pointer;
+
+  width: 90%;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.buttom-navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttom-navbar ul li {
+  cursor: pointer;
+
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.first-active-nav-links {
+  color: #5b7ea7;
+  cursor: pointer;
+}
+.navlink-buttom {
+  cursor: pointer;
+
+  color: #d43c21;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
