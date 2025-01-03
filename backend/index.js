@@ -16,13 +16,19 @@ app.use(cors());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb+srv://shivasai:shivasai28@doctorappointment.lm5ek.mongodb.net/arizon", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb+srv://shivasai:shivasai28@doctorappointment.lm5ek.mongodb.net/arizon",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
+app.get("/", (req, res) => {
+  res.send("Hello, World! i am Shivasai Boddu.");
+});
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
