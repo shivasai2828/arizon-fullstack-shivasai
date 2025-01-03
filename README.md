@@ -1,6 +1,6 @@
-# Video Management Application
+# Clone of 1STOPlighting Application
 
-This project is a full-stack **Video Management Application** built using React, Node.js, Express.js, and MongoDB. The application allows users to upload, view, and manage videos, providing features like authentication, filtering, and pagination.
+This project is a full-stackClone of 1STOPlighting built using React, Node.js, Express.js, and MongoDB. The application allows users to upload, view, and manage products, providing features like authentication, 
 
 ---
 
